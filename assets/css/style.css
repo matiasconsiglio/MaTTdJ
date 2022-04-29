@@ -29,7 +29,7 @@ section{
     position: fixed;
     top: 0;
     background: linear-gradient(180deg,var(--black)  92%, var(--light_grey) 100%);
-    z-index: 1;
+    z-index: 3;
 }
 .logo{
     font-family: 'Press Start 2P', cursive;
@@ -80,7 +80,7 @@ section{
     animation-name: profile-picture;
     animation-duration: 5s;
     animation-fill-mode: backwards;
-    z-index: 3;
+    z-index: 2;
 }
 @keyframes profile-picture {
     from{
@@ -158,7 +158,7 @@ footer{
     position: fixed;
     bottom:0;
     background: linear-gradient(0deg, var(--black) 88%, var(--light_grey) 100%);
-    z-index: 2;
+    z-index: 3;
 }
 .social-networks{
     text-align: center;
