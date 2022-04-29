@@ -80,6 +80,7 @@ section{
     animation-name: profile-picture;
     animation-duration: 5s;
     animation-fill-mode: backwards;
+    z-index: 3;
 }
 @keyframes profile-picture {
     from{
