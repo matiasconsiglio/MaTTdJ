@@ -10,6 +10,7 @@ html{
 }
 html, body {
     overflow-x:hidden;
+    width: 100%;
     }
 :root{
     --light_grey:rgba(200,200,200,1);
