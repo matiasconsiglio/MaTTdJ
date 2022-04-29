@@ -143,14 +143,16 @@ section{
 } 
 .form{
     z-index: 0;
-    height: 800px;
+    max-height: 800px;
     width: 100%;
 }
 .end-page-image{
     float:right;   
-    margin-top:-200px;
+    bottom:0px;
     z-index: 2;
     position: relative;
+    margin-bottom: -200px;
+
 }
 footer{
     height: 125px;
