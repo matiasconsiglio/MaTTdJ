@@ -6,7 +6,7 @@
     border: none;  
 }
 html{
-    scroll-padding-top: 200px;
+    scroll-padding-top: 140px;
 }
 html, body {
     overflow-x:hidden;
@@ -227,10 +227,10 @@ footer{
         margin: 0 auto;
     }
     .social-networks > li{
-        margin:25px
+        margin:35px
         }
     .social-networks i{
-        font-size: 180%;
-        margin-top: 60px;
+        font-size: 200%;
+        margin-top: 50px;
         }
 }
