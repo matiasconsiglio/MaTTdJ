@@ -108,8 +108,8 @@ section{
     position: relative;
     margin-top: 325px;  
 }
-.bio-content h1{
-    font-family: sans-serif, cursive;
+.bio-content h2{
+    font-family: 'Play';
 }
 .bio-content h3, .bio-content h4, .bio-content p{
     font-family: 'Play', sans-serif;
