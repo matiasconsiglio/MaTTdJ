@@ -33,7 +33,7 @@ section{
     z-index: 3;
 }
 .logo{
-    font-family: 'Press Start 2P', cursive;
+    font-family: sans-serif, cursive;
     float: left;
     font-size: 200%;
     margin-left: 50px;
@@ -109,7 +109,7 @@ section{
     margin-top: 325px;  
 }
 .bio-content h1{
-    font-family: 'Press Start 2P', cursive;
+    font-family: sans-serif, cursive;
 }
 .bio-content h3, .bio-content h4, .bio-content p{
     font-family: 'Play', sans-serif;
