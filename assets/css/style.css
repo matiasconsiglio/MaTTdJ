@@ -13,32 +13,33 @@ html, body {
     width: 100%;
     }
 :root{
-    --light_grey:rgba(200,200,200,1);
-    --black:rgba(19,19,19,1);
-    --blue:rgb(3,126,253);
+    --light_grey:rgb(7, 7, 7,1);
+    --black:rgba(2,2,2,1);
+    --blue:rgb(3,90,253);
     --light_blue:rgb(0,176,253);
 }
 body{
-    background-color:var(--light_grey);
+    background-color:var(--black);
 }
 section{
     height: 100vh;
 }
 .header{
     width: 100%;
-    height: 125px;
+    height: 75px;
     position: fixed;
     top: 0;
-    background: linear-gradient(180deg,var(--black)  92%, var(--light_grey) 100%);
+    background: linear-gradient(0deg,var(--black)  0%, var(--blue) 100%);
     z-index: 3;
 }
 .logo{
     font-family: sans-serif, cursive;
     float: left;
+    font-weight: 500;
     font-size: 200%;
     margin-left: 50px;
-    margin-top: 50px;
-    letter-spacing: 5px;
+    margin-top: 40px;
+    letter-spacing: -2px;
     color:var(--light_blue);
 }
 .menu{
@@ -78,24 +79,15 @@ section{
     height: 500px;
     width: 500px;
     border-radius: 50%;
-    animation-name: profile-picture;
-    animation-duration: 5s;
-    animation-fill-mode: backwards;
     z-index: 2;
 }
-@keyframes profile-picture {
-    from{
-        transform: scale(1.05);
-    }
-    to{
-        transform: scale(1);
-    }
-}
+
 .profile-heading{
     font-family: 'play';
     text-align: center;
     position: relative;
     bottom: 180px;
+    color:var(--light_blue);
 }
 .bio{
     height: 1000px;
@@ -110,13 +102,16 @@ section{
 }
 .bio-content h2{
     font-family: 'Play';
+    color:rgb(0, 195, 255);
+    letter-spacing: -2px;
 }
 .bio-content h3, .bio-content h4, .bio-content p{
     font-family: 'Play', sans-serif;
     max-width: 100%;
+    color: var(--light_blue)
 }
 .media-content{
-    height: 1250px;
+    height: auto;
 }
 .soundcloud{
     width:100%; height:166px; border:0; 
@@ -141,6 +136,7 @@ section{
     width: 100%;
     height: 400px;
     z-index: 1;
+    background-color: var(--black)
 } 
 .form{
     z-index: 0;
@@ -154,11 +150,11 @@ section{
     position: relative;
 }
 footer{
-    height: 125px;
+    height: 75px;
     width: 100%;
     position: fixed;
     bottom:0;
-    background: linear-gradient(0deg, var(--black) 88%, var(--light_grey) 100%);
+    background: linear-gradient(180deg,var(--black)  0%, var(--blue) 100%);
     z-index: 3;
 }
 .social-networks{
@@ -171,7 +167,7 @@ footer{
 .social-networks i{
     font-size: 250%;
     color: var(--light_blue);
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .social-networks i:hover{
     color: var(--blue);
@@ -194,7 +190,7 @@ footer{
         }
     .social-networks i{
         font-size: 200%;
-        margin-top: 55px;
+        margin-top: 25px;
         }
 }
 @media only screen and (max-width:600px){
@@ -202,13 +198,13 @@ footer{
         font-size: 150%;
     }
     .menu{
-        font-size: 100%;
+        font-size: 90%;
         letter-spacing: 2px;
-        margin-top: 90px;
-        margin-right: 20px;
+        margin-top: 57px;
+        margin-right: 10px;
         }
     .menu  li{
-        margin-right: 20px;
+        margin-right: 10px;
         }
     .profile-picture-outer{
         height: 850px;
@@ -233,6 +229,6 @@ footer{
         }
     .social-networks i{
         font-size: 200%;
-        margin-top: 50px;
+        margin-top: 27px;
         }
 }
